@@ -27,5 +27,5 @@ demo = gr.Interface(
     description="Get a recommended tech stack based on your project and team!"
 )
 
-demo.launch(share = True)
+demo.launch(server_name="0.0.0.0", server_port=7860)
 
